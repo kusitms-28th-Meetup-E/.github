@@ -29,7 +29,7 @@
 
 ## **💻 시스템 아키텍쳐**
 
-![architecture](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/9a66a3e7-8215-4163-808e-c4518c55ba9e)
+![architecture2](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/981a1723-25b0-40b3-b8ee-cd6a6930a997)
 
 <br>
 
@@ -44,11 +44,11 @@
 
 | vite | Recoil |
 | --- | --- |
-| **신속한 개발** <br> Vite는 빠른 개발 환경을 제공하는 도구로, 신속한 개발과 빌드 시간을 최소화합니다.<br><br>**빠른 리로딩**<br> HMR(Hot Module Replacement)을 통해 빠른 리로딩을 제공하고, 기본적으로 ES 모듈을 사용하여 빌드 시간을 줄여준다는 장점이 있어 vite를 선정하게 되었습니다. | **복잡성 최소화** <br>Recoil은 React 애플리케이션의 상태 관리를 간단하게 만드는 라이브러리로, 컴포넌트 간 데이터 공유를 용이하게 합니다.<br> 중앙 상태 관리 패턴과 비교했을 때 코드의 복잡성을 줄이며, 복잡한 상태 관리를 쉽게 구현할 수 있다는 점이 메리트가 있어 상태 관리 라이브러리로 Recoil을 선정하였습니다. |
+| **신속한 개발** <br> Vite는 빠른 개발 환경을 제공하는 도구로, 신속한 개발과 빌드 시간을 최소화합니다.<br><br>**빠른 리로딩**<br> HMR(Hot Module Replacement)을 통해 빠른 리로딩을 제공하고, 기본적으로 ES 모듈을 사용하여 빌드 시간을 줄여준다는 장점이 있어 vite를 선정하게 되었습니다. | **복잡성 최소화** <br>Recoil은 React 애플리케이션의 상태 관리를 간단하게 만드는 라이브러리로, 컴포넌트 간 데이터 공유를 용이하게 합니다.<br><br> 중앙 상태 관리 패턴과 비교했을 때 코드의 복잡성을 줄이며, 복잡한 상태 관리를 쉽게 구현할 수 있다는 점이 메리트가 있어 상태 관리 라이브러리로 Recoil을 선정하였습니다. |
 
 | axios | styled components  |
 | --- | --- |
-| **Promise 기반의 좋은 호환성**<br> 요청과 응답 인터셉터, 취소 처리, 오류 처리 등 다양한 기능을 제공합니다.<br> Promise 기반 API로 비동기 코드 작성을 용이하게 해주기 때문에 axios로 선정하였습니다.| **CSS-in-JS**<br> Styled Components는 CSS를 JavaScript로 작성하는 방식으로,<br> 컴포넌트 스타일링을 쉽게 만들어줍니다.<br><br>**동적 스타일링**<br> 컴포넌트 스코프 스타일링을 통해 스타일 충돌 문제를 해결하고, <br>동적 스타일링을 쉽게 다룰 수 있다는 점이 큰 메리트라고 생각해 선정하였습니다. |
+| **Promise 기반의 좋은 호환성**<br> 요청과 응답 인터셉터, 취소 처리, 오류 처리 등 다양한 기능을 제공합니다.<br><br> Promise 기반 API로 비동기 코드 작성을 용이하게 해주기 때문에 axios로 선정하였습니다.| **CSS-in-JS**<br> Styled Components는 CSS를 JavaScript로 작성하는 방식으로, 컴포넌트 스타일링을 쉽게 만들어줍니다.<br><br>**동적 스타일링**<br> 컴포넌트 스코프 스타일링을 통해 스타일 충돌 문제를 해결하고, <br>동적 스타일링을 쉽게 다룰 수 있다는 점이 큰 메리트라고 생각해 선정하였습니다. |
 
 <br>
 
@@ -256,7 +256,6 @@
 
 ## **🐬 Git Flow**
 
-![gitflow](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/e5bdafb5-435e-4625-91d2-0d2796296608)
-
+![깃플로우](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/6e708bb3-b77a-4f09-a358-a6f0631d7921)
 
 
