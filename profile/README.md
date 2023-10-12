@@ -223,7 +223,7 @@
 │   │   ├── main
 │   │   │   ├── java.com.gwangjang.backend
 │   │   │   │   ├── domain
-│   │   │   │   │   ├──service1
+│   │   │   │   │   └── service1
 │   │   │   │   │       ├── application
 │   │   │   │   │       │    └── dto
 │   │   │   │   │       │    └── mapper
