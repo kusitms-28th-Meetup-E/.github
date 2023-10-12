@@ -5,30 +5,36 @@
 
 ### FrontEnd
 
-- react
-- typescript
-- styled-component
-- recoil
-- axios
-- vite
-- yarn
+<img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white"/><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/recoil-3578E5?style=flat&logo=recoil&logoColor=white"/>
+<img src="https://img.shields.io/badge/vite-646CFF?style=flat&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat&logo=styledcomponents&logoColor=white"/>
+<img src="https://img.shields.io/badge/axios-5A29E4?style=flat&logo=axios&logoColor=white"/>
 
 ### Server
 
-- Spring boot 3.x
-- Java 17
-- Spring security
-- queryDSL
-- AWS
-- Docker
-- github action
----
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white"> <img src="https://img.shields.io/badge/SpringDataJpa-6DB33F?style=flat-square&logo=SpringDataJpat&logoColor=white"> 
+<img src="https://img.shields.io/badge/QueryDsl-137CBD?style=flat-square&logo=QueryDsl&logoColor=white">
+<img src="https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=Gradle&logoColor=white">
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white">
+<img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens">
+ 
+
+<br>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=flat-square&logo=AmazonEC2&logoColor=white">
+<img src="https://img.shields.io/badge/AmazonRDS-527FFF?style=flat-square&logo=AmazonRDS&logoColor=white">
+<img src="https://img.shields.io/badge/AmazonS3-569A31?style=flat-square&logo=AmazonS3&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white">
+
+<br>
+<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat-square&logo=GithubActions&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white">
 
 ## **💻 시스템 아키텍쳐**
 
+![architecture](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/9a66a3e7-8215-4163-808e-c4518c55ba9e)
 
-
-![Blank diagram - Page 1.png](DEV%20README%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%20a8cf1d6a8db04357a365be5fcf8da770/Blank_diagram_-_Page_1.png)
 
 ## 🏠 기술 스택 및 프레임워크 사용 이유
 
@@ -64,7 +70,7 @@
 | --- | --- |
 | • 일관성<br> 컨테이너는 환경을 패키지화하므로 개발, 테스트 및 프로덕션 환경 사이의 일관성을 유지하기가 더 쉽습니다. 동일한 컨테이너를 로컬 개발 환경에서 실행하고 프로덕션 서버에서 실행할 때 예상대로 동작합니다.<br> • 선언적 구성: Docker Compose와 같은 도구를 사용하면 애플리케이션 구성을 선언적으로 정의할 수 있습니다. 이를 통해 환경 변수, 네트워킹, 볼륨 마운트 등을 쉽게 관리할 수 있어 Docker를 선정하였습니다. | • 빠른 성능<br> 인메모리 기반으로 빠른 응답 속도를 제공합니다.<br> • 유연한 데이터 만료 관리: 각 키에 대해 만료 시간을 설정할 수 있어, Refresh Token의 유효 기간 관리가 용이합니다. 따라서 Redis로 Refresh Token을 관리하기 위해 해당 기술을 선정하였습니다. |
 
----
+
 
 ## 🔖 Naming Rules
 
@@ -96,7 +102,7 @@
     - chore :  …
 - **커밋은 파일 단위로 작업한 내용 쪼개서 하기**
 - 커밋메시지는 **영어로 작성**
----
+
 ## 👨🏻‍🎓 Branch 규칙
 
 
@@ -110,7 +116,7 @@
 | feat | 기능 개발 브랜치, 기능 개발이 완료 시 develop 브랜치에 merge |
 | fix | 기능 수정 브랜치, 이미 develop 브랜치에 merge된 기능을 수정하고 완료 시 develop 브랜치에 merge |
 | hotfix | master 브랜치로 배포 후에 버그가 생겼을 때 긴급 수정하는 브랜치 |
----
+
 ## ⚽️ 이슈
 
 
@@ -139,7 +145,7 @@
     - 💻 test
     - ⌨️ style
     - 📂 rename
----
+
 
 
 ## 👻 PR 규칙
@@ -165,7 +171,7 @@
 - pr 타이틀 - feat : mainPage 수정 (이슈제목과 동일하게)
     - ex) 브랜치 이름이 feat/#42/mainpage → pr제목 (feat : 메인페이지 구현)
 
----
+
 
 ## 🎃 directory 구조 (src 아래)
 
@@ -238,8 +244,7 @@
 
 ## **🐬 Git Flow**
 
+![gitflow](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/e5bdafb5-435e-4625-91d2-0d2796296608)
 
 
-![KakaoTalk_Photo_2023-10-13-00-30-26.png](DEV%20README%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%20a8cf1d6a8db04357a365be5fcf8da770/KakaoTalk_Photo_2023-10-13-00-30-26.png)
 
----
