@@ -5,7 +5,7 @@
 
 ### FrontEnd
 
-<img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white"/><img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> 
 <img src="https://img.shields.io/badge/recoil-3578E5?style=flat&logo=recoil&logoColor=white"/>
 <img src="https://img.shields.io/badge/vite-646CFF?style=flat&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat&logo=styledcomponents&logoColor=white"/>
@@ -20,21 +20,18 @@
 <img src="https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens">
  
 
-<br>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
-<img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=flat-square&logo=AmazonEC2&logoColor=white">
-<img src="https://img.shields.io/badge/AmazonRDS-527FFF?style=flat-square&logo=AmazonRDS&logoColor=white">
-<img src="https://img.shields.io/badge/AmazonS3-569A31?style=flat-square&logo=AmazonS3&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/AmazonEC2-FF9900?style=flat-square&logo=AmazonEC2&logoColor=white"> <img src="https://img.shields.io/badge/AmazonRDS-527FFF?style=flat-square&logo=AmazonRDS&logoColor=white"> <img src="https://img.shields.io/badge/AmazonS3-569A31?style=flat-square&logo=AmazonS3&logoColor=white"> 
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white">
 
+<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat-square&logo=GithubActions&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white">
+
 <br>
-<img src="https://img.shields.io/badge/GithubActions-2088FF?style=flat-square&logo=GithubActions&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white">
 
 ## **💻 시스템 아키텍쳐**
 
 ![architecture](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/9a66a3e7-8215-4163-808e-c4518c55ba9e)
 
+<br>
 
 ## 🏠 기술 스택 및 프레임워크 사용 이유
 
@@ -53,6 +50,7 @@
 | --- | --- |
 | **Promise 기반의 좋은 호환성**<br> 요청과 응답 인터셉터, 취소 처리, 오류 처리 등 다양한 기능을 제공합니다.<br> Promise 기반 API로 비동기 코드 작성을 용이하게 해주기 때문에 axios로 선정하였습니다.| **CSS-in-JS**<br> Styled Components는 CSS를 JavaScript로 작성하는 방식으로,<br> 컴포넌트 스타일링을 쉽게 만들어줍니다.<br><br>**동적 스타일링**<br> 컴포넌트 스코프 스타일링을 통해 스타일 충돌 문제를 해결하고, <br>동적 스타일링을 쉽게 다룰 수 있다는 점이 큰 메리트라고 생각해 선정하였습니다. |
 
+<br>
 
 ### ☁️ BackEnd
 
@@ -69,13 +67,15 @@
 | --- | --- |
 | **일관성**<br> 컨테이너는 환경을 패키지화하므로 개발, 테스트 및 프로덕션 환경 사이의 일관성을 유지하기가 더 쉽습니다. 동일한 컨테이너를 로컬 개발 환경에서 실행하고 프로덕션 서버에서 실행할 때 예상대로 동작합니다.<br> <br>**선언적 구성** <br>Docker Compose와 같은 도구를 사용하면 애플리케이션 구성을 선언적으로 정의할 수 있습니다. 이를 통해 환경 변수, 네트워킹, 볼륨 마운트 등을 쉽게 관리할 수 있어 Docker를 선정하였습니다. |**빠른 성능**<br> 인메모리 기반으로 빠른 응답 속도를 제공합니다.<br><br> **유연한 데이터 만료 관리**<br> 각 키에 대해 만료 시간을 설정할 수 있어, Refresh Token의 유효 기간 관리가 용이합니다. 따라서 Redis로 Refresh Token을 관리하기 위해 해당 기술을 선정하였습니다. |
 
-
+<br>
 
 ## 🔖 Naming Rules
 
 - 컴포넌트, 타입, 인터페이스, 생성자, 클래스 : PascalCase
 - 메소드 & 파라미터 & 변수 : camelCase
 - 상수 : SNAKE_CASE
+
+<br>
 
 ## **🗂️ Commit Convetion**
 
@@ -95,12 +95,17 @@
 | rename | 파일 혹은 폴더명을 수정하거나 옮기는 작업만 수행 |
 | remove | 파일을 삭제하는 작업만 수행 |
 | chore | 그 외 자잘한 수정 |
+
+<br>
+
 - **commit message example**
     - feat : 작업 내용
     - fix : 작업 내용
     - chore :  …
 - **커밋은 파일 단위로 작업한 내용 쪼개서 하기**
 - 커밋메시지는 **영어로 작성**
+
+<br>
 
 ## 👨🏻‍🎓 Branch 규칙
 
@@ -115,6 +120,8 @@
 | feat | 기능 개발 브랜치, 기능 개발이 완료 시 develop 브랜치에 merge |
 | fix | 기능 수정 브랜치, 이미 develop 브랜치에 merge된 기능을 수정하고 완료 시 develop 브랜치에 merge |
 | hotfix | master 브랜치로 배포 후에 버그가 생겼을 때 긴급 수정하는 브랜치 |
+
+<br>
 
 ## ⚽️ 이슈
 
@@ -131,24 +138,24 @@
     - [ ]
     
     ## 👣참고사항
-    ```
+   ```
     
-- 이슈 라벨
-    - 😈 chaemin
-    - 🤡 hoyeon
-    - 🛠 feat
-    - 🔨 fix
-    - ⚙ chore
-    - 🎨 design
-    - 📄 docs
-    - 💻 test
-    - ⌨️ style
-    - 📂 rename
+### 이슈라벨
 
+- 😈chaemin
+- 🤡hoyeon
+- 🛠feat
+- 🔨fix
+- ⚙chore
+- 🎨design
+- 📄docs
+- 💻test
+- ⌨️style
+- 📂rename
 
+<br>
 
 ## 👻 PR 규칙
-
 
 
 - 템플릿 이용
@@ -164,12 +171,9 @@
     ### 🖼 결과 (사진 및 작업 결과)
     ```
     
-    - 이슈 번호
-    - 작업 내용
-    - 결과 (사진 및 작업 결과)
 - pr 타이틀 - feat : mainPage 수정 (이슈제목과 동일하게)
-    - ex) 브랜치 이름이 feat/#42/mainpage → pr제목 (feat : 메인페이지 구현)
 
+<br>
 
 
 ## 🎃 directory 구조 (src 아래)
@@ -179,8 +183,9 @@
 
 **Atomic Design 패턴** 
 
-> 컴포넌트 재사용을 높이고자, 아토믹 디자인 패턴 도입
+> 컴포넌트 재사용을 높이고자, 아토믹 디자인 패턴 도입 <br>
 > props drilling 최소화하고자, templates 단계 제거 및 상태관리 recoil 도입 <br>
+
 ![스크린샷 2023-10-13 오전 1 12 12](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/defe8cd1-a7bc-4e5b-9157-1cef90f795a6)
 
 
@@ -217,18 +222,18 @@
 │   │   ├── main
 │   │   │   ├── java.com.gwangjang.backend
 │   │   │   │   ├── domain
-│   │   │	  │		│  ├── service1
-│   │   │   │	  │	 │   ├── application
+│   │   │	  │		 │  ├── service1
+│   │   │   │	  │	 │  ├── application
 │   │   │   │   │	 │	 │   └── dto
 │   │   │   │   │	 │	 │   └── mapper
 │   │   │   │   │	 │	 │   └── service
-│   │   │   │	  │	 │   ├── domain
+│   │   │   │	  │	 │  ├── domain
 │   │   │   │   │	 │	 │   └── entity
 │   │   │   │   │	 │	 │   └── repository
 │   │   │   │   │	 │	 │   └── service
-│   │   │   │	  │	 │   ├── exception
+│   │   │   │	  │	 │  ├── exception
 │   │   │   │   │	 │	 │   └── exception
-│   │   │   │	  │	 │   └── presentation
+│   │   │   │	  │	 │  └── presentation
 │   │   │   │   │	 │	     └── controller
 │   │   │   │   │	 │	     └── mapper
 │   │   │   │   │	 │	     └── service
@@ -245,6 +250,8 @@
 └─── service3
 └─── service4
 ```
+
+<br>
 
 ## **🐬 Git Flow**
 
