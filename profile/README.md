@@ -197,7 +197,8 @@
 │   ├── components
 │   │   └── atoms // 재사용 가능한 컴포넌트
 │   │   └── molecules // atom들의 집합
-│   │   └── organisms // molecules의 집합 
+│   │   └── organisms // molecules의 집합
+│   ├── layout // 공통 레이아웃 
 │   ├── pages // 사용될 페이지 관리 폴더 (페이지에서 logic 처리, async로 데이터 처리 )
 │   ├── recoil // 상태관리 recoil 폴더
 │   ├── router // Page 라우팅
