@@ -192,23 +192,24 @@
 ```
 ┌── node_modules
 ├── src
-│   ├── apis
-│   ├── assets
+│   ├── apis // api 통신
+│   ├── assets // 이미지
 │   ├── components
-│   │   └── atoms
-│   │   └── molecules
-│   │   └── organisms
-│   ├── stories
-│   ├── 
-│   ├── pages
-└───└── router
-├── app.tsx
+│   │   └── atoms // 재사용 가능한 컴포넌트
+│   │   └── molecules // atom들의 집합
+│   │   └── organisms // molecules의 집합 
+│   ├── pages // 사용될 페이지 관리 폴더 (페이지에서 logic 처리, async로 데이터 처리 )
+│   ├── recoil // 상태관리 recoil 폴더
+│   ├── router // Page 라우팅
+│   ├── style // 전역 style 지정
+└───└── types // type과 interface 지정
+├── App.tsx
 ├── main.tsx
 ├── index.html
 ├── package.json
 ├── tsconfig.json
-├── eslint.json
-└── webpack.config.ts
+├── eslintrc.json
+└── vite.config.ts
 ```
 
 ### ☁️ BackEnd
@@ -222,21 +223,21 @@
 │   │   ├── main
 │   │   │   ├── java.com.gwangjang.backend
 │   │   │   │   ├── domain
-│   │   │	  │		 │  ├── service1
-│   │   │   │	  │	 │  ├── application
-│   │   │   │   │	 │	 │   └── dto
-│   │   │   │   │	 │	 │   └── mapper
-│   │   │   │   │	 │	 │   └── service
-│   │   │   │	  │	 │  ├── domain
-│   │   │   │   │	 │	 │   └── entity
-│   │   │   │   │	 │	 │   └── repository
-│   │   │   │   │	 │	 │   └── service
-│   │   │   │	  │	 │  ├── exception
-│   │   │   │   │	 │	 │   └── exception
-│   │   │   │	  │	 │  └── presentation
-│   │   │   │   │	 │	     └── controller
-│   │   │   │   │	 │	     └── mapper
-│   │   │   │   │	 │	     └── service
+│   │   │   │   │   ├──service1
+│   │   │   │   │       ├── application
+│   │   │   │   │       │    └── dto
+│   │   │   │   │       │    └── mapper
+│   │   │   │   │       │    └── service
+│   │   │   │   │       ├── domain
+│   │   │   │   │       │    └── entity
+│   │   │   │   │       │    └── repository
+│   │   │   │   │       │    └── service
+│   │   │   │   │       ├── exception
+│   │   │   │   │       │    └── exception
+│   │   │   │   │       └── presentation
+│   │   │   │   │            └── controller
+│   │   │   │   │            └── mapper
+│   │   │   │   │            └── service
 │   │   │   │   ├── global
 │   │   │   │   └── BackendApplication
 │   │   │   ├── resources
