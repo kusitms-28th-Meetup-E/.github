@@ -29,7 +29,7 @@
 
 ## **💻 시스템 아키텍쳐**
 
-![architecture2](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/981a1723-25b0-40b3-b8ee-cd6a6930a997)
+![archi](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/25cc28ae-e8ae-4b9c-94d7-4a5e8f9049d8)
 
 <br>
 
