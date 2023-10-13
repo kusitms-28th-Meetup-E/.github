@@ -5,11 +5,12 @@
 
 ### FrontEnd
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white"/> 
-<img src="https://img.shields.io/badge/recoil-3578E5?style=flat&logo=recoil&logoColor=white"/>
-<img src="https://img.shields.io/badge/vite-646CFF?style=flat&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat&logo=styledcomponents&logoColor=white"/>
-<img src="https://img.shields.io/badge/axios-5A29E4?style=flat&logo=axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/typescript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> 
+<img src="https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/recoil-3578E5?style=flat-square&logo=recoil&logoColor=white"/>
+<img src="https://img.shields.io/badge/axios-5A29E4?style=flat-square&logo=axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/styledcomponents-DB7093?style=flat-square&logo=styledcomponents&logoColor=white"/>
+
 
 ### Server
 
@@ -123,7 +124,7 @@
 
 <br>
 
-## ⚽️ 이슈
+## ⚽️ Issues
 
 
 - 이슈 제목 - feat : mainPage 수정
@@ -142,7 +143,7 @@
     
 <br>
 
-## 👻 PR 규칙
+## 👻 Pull requests
 
 - pr 제목 - feat : mainPage 수정 (이슈제목과 동일하게)
 - 템플릿 이용
@@ -162,7 +163,7 @@
 <br>
 
 
-## 🎃 directory 구조 (src 아래)
+## 🎃 directory 구조 
 
 
 ### 🌿 FrontEnd
