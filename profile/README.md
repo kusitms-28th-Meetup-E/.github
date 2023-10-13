@@ -30,7 +30,7 @@
 
 ## **💻 System Architecture**
 
-![archi](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/25cc28ae-e8ae-4b9c-94d7-4a5e8f9049d8)
+![architect](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/b65c196d-6500-43d5-9389-acd2a0325798)
 
 <br>
 
