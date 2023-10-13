@@ -28,7 +28,7 @@
 
 <br>
 
-## **💻 시스템 아키텍쳐**
+## **💻 System Architecture**
 
 ![archi](https://github.com/kusitms-28th-Meetup-E/.github/assets/53565255/25cc28ae-e8ae-4b9c-94d7-4a5e8f9049d8)
 
@@ -108,7 +108,7 @@
 
 <br>
 
-## 👨🏻‍🎓 Branch 규칙
+## 👨🏻‍🎓 Branch Rules
 
 
 - 형식 `[Header]/[이슈 번호]/[이슈 작업 내용 요약]`
@@ -128,7 +128,7 @@
 
 
 - 이슈 제목 - feat : mainPage 수정
-- 마일스톤 적용하기 (큰 작업 단위로 묶기)
+- 마일스톤 적용
 - 템플릿 이용
     
     ```markdown
@@ -163,7 +163,7 @@
 <br>
 
 
-## 🎃 directory 구조 
+## 🎃 Directory Structure 
 
 
 ### 🌿 FrontEnd
